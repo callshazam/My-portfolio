@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #f8f9fa;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Skills Section */
+.skill-icon {
+  font-size: 5rem;
+}
+
+/* Works Section */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form Section */
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h4 {
+  font-size: 1.2rem;
+}
+
+.contact-info button {
+  margin-top: 10px;
+}
+
+/* Fade-in Animation for Sections */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hover Effects */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+}
